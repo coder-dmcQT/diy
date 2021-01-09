@@ -2,7 +2,7 @@
   <section class="widget-chooser-wrapper">
       <div class="d-flex align-center justify-space-between">
           <div class="type-picker" @click="changeDecrorationTypeIndex(0)">Image Library<div class="cursor" v-show="decroration_type_index==0"></div></div>
-          <div class="type-picker"  @click="changeDecrorationTypeIndex(1)">Upload<div class="cursor" v-show="decroration_type_index==1"></div></div>
+          <div class="type-picker" @click="changeDecrorationTypeIndex(1)">Upload<div class="cursor" v-show="decroration_type_index==1"></div></div>
       </div>
   </section>
 </template>
