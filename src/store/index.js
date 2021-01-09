@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import root_state from './root/index';
+import customizer_state from './customizer/index';
 Vue.use(Vuex)
 
 export default new Vuex.Store({
@@ -20,5 +21,6 @@ export default new Vuex.Store({
   actions: {
   },
   modules: {
+    customizer_state
   }
 })
