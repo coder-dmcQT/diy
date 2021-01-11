@@ -22,6 +22,11 @@ const routes = [
     path: '/customize',
     name:'customize',
     component: ()=>import(/* webpackChunkName: "customize" */ '../views/Customize/index.vue')
+  },
+  {
+    path:'/design',
+    name:'design',
+    component:()=>import(/* webpackChunkName: "design" */ '../views/Design/index.vue')
   }
 ]
 
